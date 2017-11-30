@@ -1,0 +1,5 @@
+[INFO ] 2017-10-31 17:31:06,034 com.webtest.util.Log - hello
+[INFO ] 2017-10-31 17:47:24,105 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-10-31 17:47:24,111 com.webtest.util.Log - firefox
+[INFO ] 2017-10-31 17:47:33,530 com.webtest.util.Log - Opened url https://www.baidu.com/
+[INFO ] 2017-10-31 17:47:48,399 com.webtest.util.Log - Quitted Browser
