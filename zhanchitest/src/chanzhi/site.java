@@ -40,15 +40,9 @@ public class site extends chanbase {
 		wd.findElement(By.id("indexKeywords")).sendKeys("企业门户系统 企业建站系统 开源CMS");
 		wd.findElement(By.id("slogan")).clear();
 		wd.findElement(By.id("slogan")).sendKeys("为天下企业提供专业的营销工具！");
-		wd.findElement(By.id("submit")).click();
+		wd.findElement(By.id("submit")).click();   //保存
 		Thread.sleep(3000);
-		
-		
-		
-		
-		
-		
-		
+			
 	}
 
 }

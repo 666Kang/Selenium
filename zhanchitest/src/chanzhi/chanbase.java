@@ -17,11 +17,11 @@ public class chanbase {
 		wd=new ChromeDriver();
 	}
 	
-	@AfterClass
-	public void quitBrowser(){
-		if(wd != null){
-			wd.quit();
-		}
-	}
+//	@AfterClass
+//	public void quitBrowser(){
+//		if(wd != null){
+//			wd.quit();
+//		}
+//	}
 
 	}
