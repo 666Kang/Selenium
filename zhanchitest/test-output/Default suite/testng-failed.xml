@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="chanzhi.CDN">
+      <class name="chanzhi.retrieval">
         <methods>
-          <include name="CDN"/>
           <include name="setUpBrowser"/>
+          <include name="retrieval"/>
         </methods>
-      </class> <!-- chanzhi.CDN -->
+      </class> <!-- chanzhi.retrieval -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19068" started-at="2017-12-01T07:50:14Z" finished-at="2017-12-01T07:50:34Z">
+  <suite name="Default suite" duration-ms="27425" started-at="2017-12-01T09:26:02Z" finished-at="2017-12-01T09:26:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19068" started-at="2017-12-01T07:50:14Z" finished-at="2017-12-01T07:50:34Z">
-      <class name="chanzhi.CDN2">
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:chanzhi.CDN2@5034c75a]" name="setUpBrowser" is-config="true" duration-ms="3919" started-at="2017-12-01T15:50:14Z" finished-at="2017-12-01T15:50:18Z">
+    <test name="Default test" duration-ms="27425" started-at="2017-12-01T09:26:02Z" finished-at="2017-12-01T09:26:29Z">
+      <class name="chanzhi.registration2">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:chanzhi.registration2@5034c75a]" name="setUpBrowser" is-config="true" duration-ms="4153" started-at="2017-12-01T17:26:02Z" finished-at="2017-12-01T17:26:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="CDN()[pri:0, instance:chanzhi.CDN2@5034c75a]" name="CDN" duration-ms="15124" started-at="2017-12-01T15:50:18Z" finished-at="2017-12-01T15:50:34Z">
+        <test-method status="PASS" signature="registration()[pri:0, instance:chanzhi.registration2@5034c75a]" name="registration" duration-ms="23245" started-at="2017-12-01T17:26:06Z" finished-at="2017-12-01T17:26:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CDN -->
-      </class> <!-- chanzhi.CDN2 -->
+        </test-method> <!-- registration -->
+      </class> <!-- chanzhi.registration2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
