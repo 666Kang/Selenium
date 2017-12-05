@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="chanzhi.retrieval">
+      <class name="chanzhi.safe_validate2">
         <methods>
           <include name="setUpBrowser"/>
-          <include name="retrieval"/>
+          <include name="validate2"/>
         </methods>
-      </class> <!-- chanzhi.retrieval -->
+      </class> <!-- chanzhi.safe_validate2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
