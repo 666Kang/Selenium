@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="chanzhi.registration1_1">
+      <class name="chanzhi.cache1">
         <methods>
+          <include name="cache" invocation-numbers="0"/>
           <include name="setUpBrowser"/>
-          <include name="registration"/>
         </methods>
-      </class> <!-- chanzhi.registration1_1 -->
+      </class> <!-- chanzhi.cache1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
