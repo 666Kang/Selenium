@@ -1,12 +1,12 @@
-package chanzhi;
+package pageObject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-
-public class chanbase {
-	WebDriver wd =null;
+public class baseTest {
+	WebDriver wd = null;
 	@BeforeClass
 	public void setUpBrowser(){
 		System.setProperty("webdriver.gecko.driver","E:\\JAVA\\gechodriver\\geckodriver.exe");
@@ -20,5 +20,6 @@ public class chanbase {
 //			wd.quit();
 //		}
 //	}
+	
 
-	}
+}
